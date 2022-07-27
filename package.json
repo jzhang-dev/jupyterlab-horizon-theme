@@ -82,7 +82,7 @@
   },
   "jupyterlab": {
     "extension": true,
-    "themePath": "static/index.css",
+    "themePath": "style/index.css",
     "outputDir": "jupyterlab_horizon_theme/labextension"
   },
   "homepage": "https://github.com/mohirio/jupyterlab-horizon-theme",

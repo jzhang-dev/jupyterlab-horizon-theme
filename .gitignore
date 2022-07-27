@@ -54,3 +54,5 @@ yarn.lock
 tsconfig.tsbuildinfo
 
 junit.xml
+
+jupyterlab_horizon_theme/labextension
