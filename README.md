@@ -1,5 +1,7 @@
 # JupyterLab Horizon Theme
 
+[![Build](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml)
+
 VSCode Horizon Dark Theme for JupyterLab.
 
 <img src="preview.png" alt="drawing" width="900"/>
