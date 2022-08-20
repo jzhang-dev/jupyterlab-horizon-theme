@@ -16,7 +16,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       name: 'JupyterLab Horizon',
       isLight: false,
       load: function () {
-        let const: HTMLMetaElement = document.createElement('meta');
+        const: HTMLMetaElement = document.createElement('meta');
         meta.name = 'theme-color';
         meta.id = 'theme-color-horizon'
         meta.content = '#1C1E26';
@@ -24,7 +24,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
         return manager.loadCSS('@mohirio/jupyterlab-horizon-theme/index.css');
       },
       unload: function () {
-        let const: HTMLElement = document.getElementById('theme-color-horizon');
+        const: HTMLElement = document.getElementById('theme-color-horizon');
         meta.parentNode.removeChild(meta);
         return Promise.resolve(void 0);
       }
