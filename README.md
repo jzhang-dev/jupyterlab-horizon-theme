@@ -30,3 +30,5 @@ Please report any issues you might have and I'll try to get it fixed as soon as 
 Thanks to [Horizon Theme for VSCode](https://horizontheme.com) for the great color scheme.
 
 And thanks to [Jupyter Atom Dark Theme](https://github.com/BurglarBenson/Jupyter-Atom-Dark-Theme) for CSS elements styling.
+
+Test build
