@@ -26,7 +26,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
       unload: function () {
         const meta: HTMLElement = document.getElementById(
           'theme-color-horizon'
-          );
+        );
         meta.parentNode.removeChild(meta);
         return Promise.resolve(void 0);
       }
