@@ -7,7 +7,7 @@ body {
   padding: 0 3px 0 5px;
   min-width: 20px;
   text-align: right;
-  color: var(--horizon-dark-gray);
+  color: var(--horizon-dark-mono-3);
   white-space: nowrap;
 }
 
@@ -138,10 +138,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   padding-right: var(--jp-code-padding);
 }
 
-.CodeMirror-linenumber {
-  color: var(--horizon-dark-gray);
-}
-
 .cm-s-zenburn {
   background-color: var(--horizon-dark-bg);
   color: var(--horizon-dark-fg);
@@ -209,4 +205,33 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .widget-checkbox {
   background-color: #2e303e;
   border-radius: 5px;
+}
+
+/* Improve error message visibility */
+.jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr'] {
+    background-color: var(--jp-rendermime-error-background);
+}
+.jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr'] pre {
+    color: var(--jp-content-font-color0);
+}
+/* Highlight current line */
+.CodeMirror-activeline-gutter .CodeMirror-linenumber {
+    color:  var(--horizon-dark-silver);
+}
+/* Disabled menu items */
+.lm-Menu-item.lm-mod-disabled {
+    color: var(--horizon-dark-mono-3);
+}
+/* Improve selected text visibility */
+.CodeMirror-line .CodeMirror-selectedtext.CodeMirror-selectedtext {
+    color:  var(--horizon-dark-black);
+}
+/* Active line */
+.cm-s-jupyter .CodeMirror-activeline-background {
+    background: var(--horizon-dark-bg-hl)
+}
+
+/* Improve line number visibility */
+.CodeMirror-linenumber {
+  color: var(--horizon-dark-mono-3);
 }

@@ -56,3 +56,6 @@ tsconfig.tsbuildinfo
 junit.xml
 
 jupyterlab_horizon_theme/labextension
+
+# OS
+**/.DS_Store
