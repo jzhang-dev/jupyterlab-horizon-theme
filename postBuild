@@ -30,6 +30,6 @@ cat > /srv/conda/envs/notebook/share/jupyter/lab/settings/overrides.json <<- EOM
     },
     "@jupyterlab/codemirror-extension:commands":{
         "styleActiveLine":true
-    },
+    }
 }
 EOM
