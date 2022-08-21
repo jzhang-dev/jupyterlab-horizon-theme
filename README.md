@@ -1,10 +1,19 @@
 # JupyterLab Horizon Theme
 
-[![Build](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml)
+[![Build](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/jzhang-dev/jupyterlab-horizon-theme/actions/workflows/build.yml) 
+
 
 A [JupyterLab](https://jupyter.org/) theme based on [Horizon theme for Visual Studio Code](https://horizontheme.netlify.app/).
 
 <img src="preview.png" alt="drawing" width="900"/>
+
+
+
+Try it on Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jzhang-dev/jupyterlab-horizon-theme/HEAD)
+
+
 
 ## Dependencies
 

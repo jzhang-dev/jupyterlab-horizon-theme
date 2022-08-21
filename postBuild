@@ -1,5 +1,6 @@
-mkdir -p $CONDA_PREFIX/share/jupyter/lab/settings
-cat > $CONDA_PREFIX/share/jupyter/lab/settings/overrides.json <<- EOM
+cd $CONDA_PREFIX/share/jupyter/lab/
+mkdir -p settings
+cat > settings/overrides.json <<- EOM
 {
     "@jupyterlab/apputils-extension:themes":{
         "theme":"JupyterLab Horizon",
