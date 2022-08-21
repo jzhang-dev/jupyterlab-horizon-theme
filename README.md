@@ -33,3 +33,4 @@ This theme works best with Chromium based browsers.
 
 Thanks to [Jupyter Atom Dark Theme](https://github.com/BurglarBenson/Jupyter-Atom-Dark-Theme) for CSS elements styling.
 
+This repository was [forked](https://github.com/jzhang-dev/jupyterlab-horizon-theme/network/members) from previous work built by [mohirio](https://github.com/mohirio), [diegombar](https://github.com/diegombar), and [DRKV333](https://github.com/DRKV333). 
