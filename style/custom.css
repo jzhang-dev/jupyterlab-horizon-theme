@@ -47,9 +47,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   background: var(--horizon-selection);
 }
 
-/* Item selected in menu for files and what not */
+/* File browser selected item */
 .jp-DirListing-item.jp-mod-selected {
-  color: white;
+  color: var(--jp-content-font-color0);
   background: var(--horizon-dark-bg-hl);
 }
 
@@ -221,6 +221,14 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 /* Disabled menu items */
 .lm-Menu-item.lm-mod-disabled {
     color: var(--horizon-dark-mono-3);
+}
+/* Selected menu items */
+.lm-Menu-item.lm-mod-active {
+  color: var(--jp-content-font-color0);
+}
+/* Selected auto-completion item */
+.jp-Completer-item.jp-mod-active code{
+  color: var(--jp-content-font-color0);
 }
 /* Improve selected text visibility */
 .CodeMirror-line .CodeMirror-selectedtext.CodeMirror-selectedtext {
