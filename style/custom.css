@@ -253,6 +253,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 input.jp-DirListing-editor {
   background: var(--horizon-dark-bg-hl);
   color: var(--jp-content-font-color0);
+  border: 1px solid var(--horizon-dark-blue);
 }
 /* Status indicator for the selected item in file browser */
 .jp-DirListing-item.jp-mod-running.jp-mod-selected
