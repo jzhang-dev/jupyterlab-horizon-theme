@@ -265,3 +265,7 @@ input.jp-DirListing-editor {
   color: var(--jp-content-font-color1);
   background: var(--horizon-dark-bg-hl);
 }
+/* Scrollbar filler */
+.CodeMirror-scrollbar-filler {
+  background: var(--jp-layout-color1)
+}
