@@ -248,3 +248,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 .CodeMirror-linenumber {
   color: var(--horizon-dark-mono-3);
 }
+
+/* Input in file browser (e.g. for renaming files) */
+input.jp-DirListing-editor {
+  background: var(--horizon-dark-bg-hl);
+  color: var(--jp-content-font-color0);
+}
+/* Status indicator for the selected item in file browser */
+.jp-DirListing-item.jp-mod-running.jp-mod-selected
+  .jp-DirListing-itemIcon:before {
+    color: var(--horizon-dark-green);
+}
+/* Selector in the side bar */
+.jp-KeySelector select.jp-mod-styled {
+  color: var(--jp-content-font-color1);
+  background: var(--horizon-dark-bg-hl);
+}
