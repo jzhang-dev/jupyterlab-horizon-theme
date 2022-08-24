@@ -53,6 +53,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   background: var(--horizon-dark-bg-hl);
 }
 
+/* Search keyword in selected item in file browser */
+.jp-DirListing-content .jp-DirListing-item.jp-mod-selected mark {
+  color: var(--jp-content-font-color0);
+}
+
 /* Makes the running icon a tiny bit bigger */
 .jp-DirListing-item.jp-mod-running .jp-DirListing-itemIcon:before {
   color: var(--horizon-dark-green);
