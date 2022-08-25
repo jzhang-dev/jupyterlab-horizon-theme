@@ -1,6 +1,10 @@
 body {
   background: #232530;
 }
+/* Splash (intro screen) */
+#jupyterlab-splash.dark {
+  background-color: var(--jp-layout-color1);
+}
 
 /* Change the colour of linenumbers */
 .CodeMirror-linenumber {
