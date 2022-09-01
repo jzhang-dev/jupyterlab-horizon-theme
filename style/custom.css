@@ -273,3 +273,7 @@ input.jp-DirListing-editor {
 .CodeMirror-scrollbar-filler {
   background: var(--jp-layout-color1)
 }
+/* Unselected icon in the file broswer */
+.jp-icon-contrast1[fill] {
+  fill: var(--jp-ui-font-color1);
+}
