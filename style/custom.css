@@ -106,9 +106,9 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 }
 
 /* Center any plots e.g. Matplotlib plots */
-.p-Widget.jp-RenderedImage.jp-mod-trusted.jp-OutputArea-output {
+/* .p-Widget.jp-RenderedImage.jp-mod-trusted.jp-OutputArea-output {
   text-align: center;
-}
+} */
 
 /* Markdown File Icon */
 
