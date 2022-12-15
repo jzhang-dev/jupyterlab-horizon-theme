@@ -2,14 +2,14 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: install_theme
+  - name: Install theme for delelopment
     init: | 
       jlpm &&
-      pip install -ve . &&
+      pip install . &&
       mkdir -p /home/gitpod/.pyenv/versions/3.8.13/share/jupyter/lab/settings &&
       cp overrides.json /home/gitpod/.pyenv/versions/3.8.13/share/jupyter/lab/settings/overrides.json
 
-  - name: run_jupyterlab
+  - name: Run JupyterLab
     command: cd /workspace && jupyter lab --no-browser --ip=0.0.0.0 --port=9999 --NotebookApp.token='' --NotebookApp.password=''
 
 ports:
