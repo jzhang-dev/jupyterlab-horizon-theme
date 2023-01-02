@@ -280,3 +280,7 @@ input.jp-DirListing-editor {
 .jp-icon-contrast1[fill] {
   fill: var(--jp-ui-font-color1);
 }
+/* HTML viewer background */
+div.jp-HTMLViewer {
+  background: white;
+}

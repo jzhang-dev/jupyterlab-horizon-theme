@@ -9,7 +9,7 @@ tasks:
   - name: Install JupyterLab Horizon Theme for development
     init: | 
       gp sync-await dev_dependencies
-      jlpm . &&
+      jlpm &&
       pip install . &&
       gp sync-done jupyterlab_theme
   - name: Run JupyterLab
