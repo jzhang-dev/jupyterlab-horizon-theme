@@ -2,18 +2,20 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - name: Install theme for delelopment
+  - name: Install development dependencies
+    init: |
+      pip install -v -r dev/requirements.txt &&
+      gp sync-done dev_dependencies
+  - name: Install JupyterLab Horizon Theme for development
     init: | 
-      jlpm &&
-      pip install . &&
-      mkdir -p /home/gitpod/.pyenv/versions/3.8.13/share/jupyter/lab/settings &&
-      
-
+      gp sync-await dev_dependencies && 
+      pip install -ve .
   - name: Run JupyterLab
+    init: gp sync-await jupyterlab_theme
     command: |
-      mkdir -p /home/gitpod/.pyenv/versions/3.8.13/share/jupyter/lab/settings
-      cp dev/jupyterlab_settings/overrides.json /home/gitpod/.pyenv/versions/3.8.13/share/jupyter/lab/settings/overrides.json
-      cd /workspace && jupyter lab --no-browser --ip=0.0.0.0 --port=9999 --NotebookApp.token='' --NotebookApp.password=''
+      mkdir -p /workspace/.pyenv_mirror/user/current/share/jupyter/lab/settings
+      cp dev/jupyterlab_settings/overrides.json /workspace/.pyenv_mirror/user/current/share/jupyter/lab/settings/overrides.json
+      jupyter lab --no-browser --ip=0.0.0.0 --port=9999 --NotebookApp.token='' --NotebookApp.password=''
 
 ports:
 - name: JupyterLab

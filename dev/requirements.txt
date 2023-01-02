@@ -1,0 +1,4 @@
+black
+jupyterlab ~= 3.0
+jupyter_packaging ~= 0.7.9
+jupyter-resource-usage 
