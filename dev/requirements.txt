@@ -1,4 +1,5 @@
 black
+ipykernel >= 6.10.0
 jupyterlab ~= 3.0
 jupyter_packaging ~= 0.7.9
-jupyter-resource-usage 
+jupyter-resource-usage ~= 0.7.0

@@ -284,3 +284,8 @@ input.jp-DirListing-editor {
 div.jp-HTMLViewer {
   background: white;
 }
+/* jupyter-resource-usage sidebar */
+.jp-KernelUsage-view {
+  color: var(--jp-ui-font-color1);
+  background: var(--jp-layout-color1);
+}
